@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../api/get_seasonal_animes_api.dart';
 import '/core/screens/error_screen.dart';
 import '/core/widgets/loader.dart';
-import '/widgets/anime_list_view.dart';
+import '../views/anime_list_view.dart';
 
 class ViewAllSeasonalAnimesScreen extends StatefulWidget {
   const ViewAllSeasonalAnimesScreen({

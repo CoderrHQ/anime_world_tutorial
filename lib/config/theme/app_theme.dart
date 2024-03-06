@@ -31,6 +31,7 @@ class AppTheme {
   );
 
   static final lightTheme = ThemeData(
+    // scaffoldBackgroundColor: lightThemeWhiteBackground,
     primaryColor: Colors.black,
     shadowColor: Colors.white54,
     iconTheme: const IconThemeData(color: Colors.black),
@@ -43,6 +44,8 @@ class AppTheme {
         color: Colors.black,
       ),
     ),
-    colorScheme: const ColorScheme.light().copyWith(background: Colors.white),
+    colorScheme: const ColorScheme.light()
+        // .copyWith(secondary: lightThemeWhiteBackground)
+        .copyWith(background: Colors.white),
   );
 }

@@ -4,7 +4,7 @@ import '../api/get_anime_by_ranking_type_api.dart';
 import '/core/screens/error_screen.dart';
 import '/core/widgets/loader.dart';
 import '/models/anime_category.dart';
-import '/widgets/anime_list_view.dart';
+import '../views/anime_list_view.dart';
 
 class CategoryanimesScreen extends StatelessWidget {
   const CategoryanimesScreen({

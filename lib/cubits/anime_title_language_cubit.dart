@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '/helpers/database_helper.dart';
+import '/database_helper/database_helper.dart';
 
 typedef IsEnglish = bool;
 
